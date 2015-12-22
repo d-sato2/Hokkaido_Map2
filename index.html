@@ -301,11 +301,11 @@ svg.call(zoom)
         var radius = 100;
 
         var svg2 = svg.append("g")
-            .attr("transform", "translate(" + [200, 200] + ")");
+            .attr("transform", "translate(" + [160, 120] + ")");
 
         var arc = d3.svg.arc()
                 .outerRadius(radius)
-                .innerRadius(30);
+                .innerRadius(0);
 
         var pie = d3.layout.pie()
                 .sort(null)
