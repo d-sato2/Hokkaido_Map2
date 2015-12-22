@@ -13,7 +13,7 @@ svg {
 .cityname-label,
 .stat-label {
     fill-opacity: .5;
-    font-size: 8px;
+    font-size: 6px;
     font-weight: 300;     
     text-anchor: middle;
     display: none;
@@ -48,16 +48,28 @@ div.tooltip {
   width: 150px;                  
   height: 60px;                 
   padding: 2px;             
-  font-size: 10px;     
+  font-size: 13px;     
   background: #EFFFD6;
-  border: 1px;      
+  border: 1px;
+  border-radius: 8px;           
+  pointer-events: none;         
+} 
+div.tooltip2 {   
+  position: absolute;           
+  text-align: center;           
+  width: 150px;                  
+  height: 40px;                 
+  padding: 2px;             
+  font-size: 15px;     
+  background: #A9D0F5;
+  border: 1px;
   border-radius: 8px;           
   pointer-events: none;         
 } 
 #table {
   position: absolute;
   top: 50px;
-  left: 680px;
+  left: 800px;
   font-size: 13px; 
   table-layout: fixed;
    width: 350px;          
